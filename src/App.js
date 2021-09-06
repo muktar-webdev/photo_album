@@ -26,7 +26,7 @@ function App() {
       <AppBar position="relative">
         <Toolbar>
           <PhotoCamera className={classes.icon} />
-          <Typography variant="h6"> Photo Album</Typography>
+          <Typography variant="h6"> Art Gallery</Typography>
         </Toolbar>
       </AppBar>
       <main>
@@ -37,6 +37,7 @@ function App() {
               align="center"
               color="textPrimary"
               guttersBottom
+              style={{ textShadow: "2px 2px 4px red " }}
             >
               Photo Album
             </Typography>
